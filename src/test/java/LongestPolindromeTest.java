@@ -3,8 +3,6 @@ import junitparams.Parameters;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.util.Lists.newArrayList;
 
@@ -17,10 +15,21 @@ public class LongestPolindromeTest {
     @Parameters({
             "abcdedcba, abcdedcba",
             "abc, ",
-            "aaqqaa, aqqa",
+            "aaqqaa, ",
             "abcdxyxx, xyx"
     })
-    public void findsLongestPolindrome(String s, String longestPolindrome) {
-        assertThat(task.findIt(s)).isEqualTo(longestPolindrome);
+    public void findsLongestPolindromeOdd(String s, String longestPolindrome) {
+        assertThat(task.findPolindromeWithOddNumberLen(s)).isEqualTo(longestPolindrome);
+    }
+
+    @Test
+    @Parameters({
+            "abcdedcba, ",
+            "abc, ",
+            "aaqqaa, aaqqaa",
+            "abcdxyxx, xx"
+    })
+    public void findsLongestPolindromeEven(String s, String longestPolindrome) {
+        assertThat(task.findPolindromeWithEvenNumberLen(s)).isEqualTo(longestPolindrome);
     }
 }
