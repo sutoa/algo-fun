@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f923059-7fcb-4a16-acdc-fb91dbedbd39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MergeTwoSortedListsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LongestPolindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LongestPolindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LongestPolindromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/LongestPolindromeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LongestPolindromeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LongestPolindromeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LongestPolindromeTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LongestPolindromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-LongestPolindromeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LongestPolindromeTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LongestPolindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LongestPolindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LongestPolindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LongestPolindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,40 +73,20 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestPolindromeTest">
-    <configuration name="LastOccurrenceOfANumberInSortedListTest.findsLastOccLessThanOrEqInSortedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;LastOccurrenceOfANumberInSortedListTest.findsLastOccLessThanOrEqInSortedList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MergeTwoSortedListsTest.mergesSortedLists">
     <configuration name="LongestPolindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,12 +127,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RangeOfNumberInSortedListTest.findsBeginEndOfNumberInSortedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeTwoSortedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RangeOfNumberInSortedListTest.findsBeginEndOfNumberInSortedList&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MergeTwoSortedListsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeTwoSortedListsTest.mergesSortedLists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MergeTwoSortedListsTest.mergesSortedLists&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeTwoSortedListsTest.mergesSortedLists" />
+        <item itemvalue="Gradle.MergeTwoSortedListsTest" />
         <item itemvalue="Gradle.LongestPolindromeTest" />
         <item itemvalue="Gradle.Tests in 'algo.test'" />
         <item itemvalue="Gradle.LongestPolindromeTest.findsLongestPolindrome" />
-        <item itemvalue="Gradle.LastOccurrenceOfANumberInSortedListTest.findsLastOccLessThanOrEqInSortedList" />
-        <item itemvalue="Gradle.RangeOfNumberInSortedListTest.findsBeginEndOfNumberInSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -205,73 +208,89 @@
       <option name="presentableId" value="Default" />
       <updated>1584291969691</updated>
     </task>
+    <task id="LOCAL-00001" summary="to handle even number polindrome">
+      <created>1585448137860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585448137860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="to handle even number polindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="to handle even number polindrome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584898897726">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1584898897726" />
-    <state x="330" y="52" key="CommitChangelistDialog2" timestamp="1585448107091">
+    <state x="330" y="52" key="CommitChangelistDialog2" timestamp="1585448137700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="330" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585448107091" />
-    <state width="1398" height="282" key="GridCell.Tab.0.bottom" timestamp="1585447926166">
+    <state x="330" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585448137700" />
+    <state width="1398" height="282" key="GridCell.Tab.0.bottom" timestamp="1585498998285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585447926166" />
+    <state width="1398" height="282" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585498998285" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584411075560" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585179405208" />
-    <state width="1398" height="282" key="GridCell.Tab.0.center" timestamp="1585447926164">
+    <state width="1398" height="282" key="GridCell.Tab.0.center" timestamp="1585498998284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585447926164" />
+    <state width="1398" height="282" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585498998284" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584411075559" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585179405205" />
-    <state width="1398" height="282" key="GridCell.Tab.0.left" timestamp="1585447926163">
+    <state width="1398" height="282" key="GridCell.Tab.0.left" timestamp="1585498998283">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585447926163" />
+    <state width="1398" height="282" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585498998283" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584411075559" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585179405204" />
-    <state width="1398" height="282" key="GridCell.Tab.0.right" timestamp="1585447926165">
+    <state width="1398" height="282" key="GridCell.Tab.0.right" timestamp="1585498998284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585447926165" />
+    <state width="1398" height="282" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585498998284" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584411075560" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585179405207" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585179405211">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585498343197">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584847407497" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585498343197" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584411075562" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585179405211" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585179405210">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585498343196">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584847407496" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585498343196" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1584411075561" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1585179405210" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585179405209">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585498343196">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584847407496" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585498343196" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1584411075561" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1585179405209" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585179405210">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585498343197">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584847407496" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585498343197" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1584411075561" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1585179405210" />
     <state x="221" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1585439664539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="23" width="1024" height="821" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585439664539" />
-    <state width="534" height="445" key="SwitcherDM" timestamp="1585014795598">
+    <state width="534" height="445" key="SwitcherDM" timestamp="1585452759668">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="534" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1585014795598" />
+    <state width="534" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1585452759668" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585448147445">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585448147445" />
     <state x="503" y="235" key="chooseDestDirectoryDialog" timestamp="1584844045701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -292,10 +311,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="97" y="64" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584292292044" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585439762495">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585448645525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585439762495" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585448645525" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -314,6 +333,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/RangeOfNumberInSortedList.java</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MergeTwoSortedLists.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
