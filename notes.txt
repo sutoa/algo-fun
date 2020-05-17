@@ -1,3 +1,6 @@
 1. find sqrt
     a. log solution ans = pow(10, log10(num)/2); this is not a perfect solution; for num = 808201, it does not work due to decimal number
     b. binary search; left, right and everything declared as long; otherwise the product can be negative even if it's declared as long but mid is int
+2. remove K digits to get the smallest number
+    a. remove digit if it's greater than the digit to the right
+    b. pollLast of Deque returns the beginning of the list; Also, pollLast is slow; use poll and reverse at the end when converting from stack to string
