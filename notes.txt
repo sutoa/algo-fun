@@ -4,3 +4,5 @@
 2. remove K digits to get the smallest number
     a. remove digit if it's greater than the digit to the right
     b. pollLast of Deque returns the beginning of the list; Also, pollLast is slow; use poll and reverse at the end when converting from stack to string
+3. circular array max sum
+    a. when max straddles the circular edge, then it's like removing the min chunk from the total sum of the array. this is not the case when the max does not cross over because taking out a chunk in the middle would break the string
