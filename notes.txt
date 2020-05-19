@@ -6,3 +6,6 @@
     b. pollLast of Deque returns the beginning of the list; Also, pollLast is slow; use poll and reverse at the end when converting from stack to string
 3. circular array max sum
     a. when max straddles the circular edge, then it's like removing the min chunk from the total sum of the array. this is not the case when the max does not cross over because taking out a chunk in the middle would break the string
+4. odd/even linkedlist  (5/19/20)
+    a. maintain 2 pointers; one for where to insert; one for what to take out
+    b. the pointers should be pointing at BEFORE the insert and remove positions due to one dimension
