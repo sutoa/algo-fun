@@ -9,3 +9,6 @@
 4. odd/even linkedlist  (5/19/20)
     a. maintain 2 pointers; one for where to insert; one for what to take out
     b. the pointers should be pointing at BEFORE the insert and remove positions due to one dimension
+5. stock span (5/20)
+    a. we can folder previous spans as long as they are smaller because we don't need the break down to calculate the next number
+    b. for foldering/collapsing items, Deque is the structure to use
