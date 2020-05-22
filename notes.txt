@@ -12,3 +12,7 @@
 5. stock span (5/20)
     a. we can folder previous spans as long as they are smaller because we don't need the break down to calculate the next number
     b. for foldering/collapsing items, Deque is the structure to use
+6. kth element in bst
+    a. use stack to traverse tree inorder so we can count along the way if it's kth
+7. ransom note
+    a. if it's all lower cases, just use array of 26 instead of map, more time consuming
