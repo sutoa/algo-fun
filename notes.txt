@@ -16,3 +16,5 @@
     a. use stack to traverse tree inorder so we can count along the way if it's kth
 7. ransom note
     a. if it's all lower cases, just use array of 26 instead of map, more time consuming
+8. count squares occupied with 1's
+    a. for each element, count the longest edge and then keep adding. same as problem to find the biggest square
