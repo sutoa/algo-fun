@@ -18,3 +18,9 @@
     a. if it's all lower cases, just use array of 26 instead of map, more time consuming
 8. count squares occupied with 1's
     a. for each element, count the longest edge and then keep adding. same as problem to find the biggest square
+9. Trie for String match and startWith
+    a. use tree structure to represent words, one char per level
+10. interval list interception
+    a. find overlap is always maxStart to minEnd unless no overlap at all, in which case, end>start
+    b. advance the side where the end is before the other, because there could be another one right after this one that also has overlap
+    c. use List<int[]> and toArray is faster than map and convert to array
