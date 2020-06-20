@@ -30,3 +30,5 @@
 12. mark region sounded by X (June)
     a. start from the 4 edges of the board to mark because we can make the decision, mark as P,
     we go all the way to the edge and then back paddle
+13. is number power of 2 (June)
+    a. use bit-wise and of x and x-1, result has to be 0
