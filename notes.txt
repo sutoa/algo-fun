@@ -24,3 +24,9 @@
     a. find overlap is always maxStart to minEnd unless no overlap at all, in which case, end>start
     b. advance the side where the end is before the other, because there could be another one right after this one that also has overlap
     c. use List<int[]> and toArray is faster than map and convert to array
+11. split people to 2 groups
+    a. why adding one direction gave false while should be true?
+
+12. mark region sounded by X (June)
+    a. start from the 4 edges of the board to mark because we can make the decision, mark as P,
+    we go all the way to the edge and then back paddle
