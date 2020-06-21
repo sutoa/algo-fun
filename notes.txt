@@ -32,3 +32,16 @@
     we go all the way to the edge and then back paddle
 13. is number power of 2 (June)
     a. use bit-wise and of x and x-1, result has to be 0
+14. h index of citation
+    a. citation is the number of remaining element in the SORTED array, current ele included, where the ele value is greater than or equal to the remain size
+    b. binary searh's general for is as follows
+    while(left<=right){
+        mid = left + (right-left)/2;
+        if(some condition that says answer is to the left){
+            right=mid-1;
+            // IMPORTANT may need to capture the potential answer if the current position might ALREADY by the answer so that when you break out of the loop, the right answer is in ans
+            ans = ...;
+        } else {
+            left = mid+1;
+        }
+    }
