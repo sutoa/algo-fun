@@ -45,3 +45,8 @@
             left = mid+1;
         }
     }
+15. find Dup string
+    a. Rabin Karp algorithm
+    b. Use LONG for everything because the power of 26 is very high when you have a string of 1600 chars
+    c. it made a different how the hash is calculated. when i left the power grow from left to right, then the next hash became 0 eventually when 800 chars. So false true thinking there's a dup
+    when i let the power DECREASE from left to right, then the hashes didn't collide even though there was also a numeric overflow of the multiplier. 26 to the power of 799 became 0
