@@ -52,3 +52,5 @@
     when i let the power DECREASE from left to right, then the hashes didn't collide even though there was also a numeric overflow of the multiplier. 26 to the power of 799 became 0
 16. find number of sum of square 6/28
     a. DP approach works. loop from low to hi
+17. dungeon game, min health (june)
+    a. dp with grid, if from the top left starting pointing doesn't make sense, then think backwards from end point in lower right
